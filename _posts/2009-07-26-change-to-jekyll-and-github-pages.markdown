@@ -36,5 +36,15 @@ You need two entries
 1. A-record yourdomain.com to 65.74.177.129 
 2. Cname www.yourdomain.com to yourdomain.com
 
+<p></p>
+
+### Add disqus for comments ###
+
+Since these are static pages, the preferred way to add commenting to your blog is through disqus. Actually, I've grown to prefer disqus even if it is self hosted.
+
+1. Add your website at http://disqus.com/add
+2. Add the generated javascript to the bottom of your post layout
+
+<p></p>
 
 That should be all you need to get started. I'd recommend changing your layout so your blog doesn't continue to look like mojombo's blog. However, this isn't strictly necessary.
