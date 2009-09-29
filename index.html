@@ -1,14 +1,19 @@
 ---
 layout: default
-title: Jason Haruska
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+	
+{% for post in site.posts limit:5 %}
+<div class="entry">
+	<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<div class="byline">{{ post.date | date:"%B %d, %Y" }}</div>
+	<div class="post-body">
+		{{ post.content }}
+		{% if post.extended.size > 0 %}
+		<p>Continue reading at <a href="{{ post.url }}">{{ post.title }}</a>.</p>
+		{% endif %}
+	</div>
 </div>
-  
+{% endfor %}
+
+

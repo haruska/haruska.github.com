@@ -15,32 +15,26 @@
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
 </head>
 <body>
-
-<div class="site">
-  <div class="title">
-    <a href="/">Jason Haruska</a>
-    <a class="extra" href="/">home</a>
-  </div>
-  
-  {{ content }}
-  
-  <div class="footer">
-    <div class="contact">
-      <p>
-        Jason Haruska
-	contact@haruska.com
-      </p>
-    </div>
-    <div class="contact">
-      <p>
-        <a href="http://github.com/haruska/">github.com/haruska</a><br />
-        <a href="http://twitter.com/haruska/">twitter.com/haruska</a><br />
-        <a href="http://flickr.com/photos/haruska/">flickr.com/photos/flickr</a>
-      </p>
-    </div>
-  </div>
-</div>
-
-
+				<div id="container">
+								<div id="header"><h1><a href="/">Jason Haruska</a></h1></div>
+								<div id="wrapper">
+												<div id="content">
+																<h1 class="title">{{ page.title }}</h1>
+																{{ content }}
+												</div>
+								</div>
+								<div id="navigation">
+												<p>
+												<a href="/">blog</a> (<a href="/archive.html">archive</a>)
+												</p>
+												<p>
+												<a href="http://github.com/haruska/">github.com/haruska</a><br />
+												<a href="http://twitter.com/haruska/">twitter.com/haruska</a><br />
+												<a href="http://flickr.com/photos/haruska/">flickr.com/photos/flickr</a>
+												</p>
+								</div>
+								<div id="extra"></div>
+								<div id="footer"></div>
+				</div>
 </body>
 </html>
