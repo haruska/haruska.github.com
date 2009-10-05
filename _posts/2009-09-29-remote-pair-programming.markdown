@@ -43,7 +43,7 @@ We found that all we were really trying to share was the text editor. With some 
 **User pete:**
 
 	ssh pete@common-machine
-	screen -X john/pairprog
+	screen -x john/pairprog
 
 We found it as responsive as any other remote terminal and had the added benefit of not dedicating the developers' laptops to the task. This is useful for when you're researching how to solve a problem or looking up API documentation while pairing. Our team found this method of pair programming so useful, we considered it even when in the office. It allows developers to stay in their environments they're comfortable with and get real work done.
 
