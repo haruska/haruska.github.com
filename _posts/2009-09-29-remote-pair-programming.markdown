@@ -14,22 +14,22 @@ Everyone I happen to pair program with can use vim. Some of us use Mac others Li
 	* OS X only
 	* Bandwidth hog (need large pipe on both ends)
 	* Sends raw keyboard signals (dvorak/querty pairs hard)
-* Skype screen share
+* Skype video screen share
 	* Easiest network setup
 	* Beta OS Support (OS X and Windows only ATM)
 	* Bandwidth hog
-* VNC and Skype
+* VNC and Skype voice
 	* Platform agnostic
 	* VNC requires NAT traversal
 	* Bandwidth heavy (less than iChat)
-* SSH, Screen and Skype
+* SSH, Screen and Skype voice
 	* Platform agnostic
 	* Very low bandwidth usage
 	* Familiar terminal environment
 	* GUI text editors not supported
 	* may require NAT traversal
 
-We started by trying screen sharing software. This works pretty well with large bandwidth pipes on both ends. Sometimes the screen repainting can be enough of a delay to break co-understanding. This is especially true when using vim navigation. All screen sharing (iChat, Skype, VNC) seemed to have this issue.
+We started by trying screen sharing software. This works pretty well with large bandwidth pipes on both ends. Sometimes the screen repainting can be enough of a delay to break co-understanding. This is especially true when using vim navigation. All screen sharing (iChat, Skype video, VNC) seemed to have this issue.
 
 We found that all we were really trying to share was the text editor. With some [helpful tips from Linux.com](http://www.linux.com/archive/feature/56443), we were able to get screen with a shared session working. This can be done on any machine where both developers have SSH access. In the following example, John and Pete ssh into a common machine and share a terminal screen session.
 
