@@ -13,7 +13,7 @@ Everyone I happen to pair program with can use vim. Some of us use Mac others Li
 	* Easiest network setup
 	* OS X only
 	* Bandwidth hog (need large pipe on both ends)
-	* Sends raw keyboard signals (dvorak/querty pairs hard)
+	* Sends raw keyboard signals (dvorak/qwerty pairs hard)
 * Skype video screen share
 	* Easiest network setup
 	* Beta OS Support (OS X and Windows only ATM)
