@@ -1,15 +1,63 @@
-html,body {margin:0;padding:0}
-body{font:arial,sans-serif}
-p{margin:0 10px 10px}
-div#header h1{height:80px;line-height:80px;margin:0;
-  padding-left:10px;background: #EEE;color: #79B30B}
-div#content p{line-height:1.4}
-div#navigation{background:#B9CAFF}
-div#extra{background:#FF8539}
-div#footer{background: #333;color: #FFF}
-div#footer p{margin:0;padding:5px 10px}
+body {
+  padding:0; margin:0;
+ font-family: Arial, Helvetica, sans-serif;
+ background: #BD9C8C;
+}
 
-div#wrapper{float:left;width:100%}
-div#content{margin-left:200px}
-div#navigation{float:left;width:200px;margin-left:-100%}
-div#extra{clear:left;width:100%}
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+#header {
+ width: 900px;
+ color: #333;
+ padding: 10px;
+ margin: 10px 0px 5px 0px;
+ background: #BD9C8C;
+ vertical-align: bottom;
+}
+
+#homeheader {
+  float: left;
+  vertical-align: bottom;
+}
+
+#nav {
+  list-style-type: none;
+  text-align: right; 
+  float: right;
+} 
+
+#nav li {
+  display: inline;
+}
+
+#footer li {
+  display: inline;
+}
+
+#content { 
+ width: 900px;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #F2F2E6;
+ padding: 10px;
+ clear: both;
+}
+
+#footer { 
+ color: #333;
+ width: 900px;
+ background: #BD9C8C;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+ text-align: center;
+}
+
+.entry {
+  border-bottom: 1px solid;
+}
+
+#archive-posts {
+  list-style-type: none;
+}
