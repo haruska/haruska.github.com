@@ -4,6 +4,29 @@ body {
  background: #BD9C8C;
 }
 
+A:link {
+  color: brown;
+  text-decoration: none;
+}
+
+A:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+
+A:active {
+  text-decoration: underline;
+}
+
+A:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  color: brown;
+}
+
 #wrapper { 
  margin: 0 auto;
  width: 922px;
@@ -19,7 +42,11 @@ body {
 
 #homeheader {
   float: left;
-  vertical-align: bottom;
+}
+
+#homeheader h1 {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 #nav {
@@ -28,11 +55,12 @@ body {
   float: right;
 } 
 
-#nav li {
-  display: inline;
+#nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-#footer li {
+#nav li {
   display: inline;
 }
 
@@ -53,6 +81,15 @@ body {
  padding: 10px;
  text-align: center;
 }
+
+#footer ul {
+  list-style-type: none;
+}
+
+#footer li {
+  display: inline;
+}
+
 
 .entry {
   border-bottom: 1px solid;
