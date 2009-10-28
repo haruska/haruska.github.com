@@ -48,3 +48,5 @@ We found that all we were really trying to share was the text editor. With some 
 We found it as responsive as any other remote terminal and had the added benefit of not dedicating the developers' laptops to the task. This is useful for when you're researching how to solve a problem or looking up API documentation while pairing. Our team found this method of pair programming so useful, we considered it even when in the office. It allows developers to stay in their environments they're comfortable with and get real work done.
 
 I hope Obie's post won't discourage "the masses" from pair programming. Figure out what works for you and make it happen. Pair programming has lots of benefits both to the code base and the participating developers. Similar to TDD, it doesn't just happen overnight. Pair Programming is a skill that developers need to constantly get better at to succeed.
+
+
