@@ -11,4 +11,4 @@ It's that time of year again where people seem to be extra generous. Consider do
 * [mms2r](http://github.com/monde/mms2r)
 * [cucumber](http://cukes.info/)
 
-Thanks to github, most now take credit card donations. Thanks for all the great software!
+Thanks for all the great software!
